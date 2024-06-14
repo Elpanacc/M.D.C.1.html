@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.D.C.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .materiales {
+            margin-top: 20px;
+        }
+        .materiales h2 {
+            color: #007BFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>M.D.C.</h1>
+        <div class="materiales">
+            <h2>Materiales y Precios</h2>
+            <table>
+                <tr>
+                    <th>Material</th>
+                    <th>Precio (MXN)</th>
+                </tr>
+                <tr>
+                    <td>Blok</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Adoquín</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Semento</td>
+                    <td>$369</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
